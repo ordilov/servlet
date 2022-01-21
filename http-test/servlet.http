@@ -9,3 +9,12 @@ GET http://localhost:8080/request-param?username=kim&age=20&username=lee
 POST http://localhost:8080/request-body-string
 
 hello!
+
+###
+POST http://localhost:8080/request-body-json
+Content-Type: application/json
+
+{
+  "username": "kim",
+  "age": 20
+}
